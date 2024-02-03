@@ -1,0 +1,14 @@
+{
+    "name": "Dotnet WASM",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-dotnettools.csharp"
+			]
+		}
+	}
+}
